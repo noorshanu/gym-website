@@ -1,0 +1,5 @@
+pip install flask
+pip install flask-mail
+pip install request
+to run
+python main.py

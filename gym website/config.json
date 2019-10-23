@@ -1,0 +1,15 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri": "mysql+mysqldb://root:@localhost/fitness_club",
+        "prod_uri":" mysql+mysqldb://root:@localhost/fitness_club",
+        "fb_url": "https://www.facebook.com/noorbad",
+        "tw_url":"https://twitter.com/nooralam619",
+        "git_url":"https://github.com/noorshanu",
+        "gym_name": "Fitness Club",
+        "tag_line":"Looking For a Fit Body Join Us",
+        "gmail-user":"noor.alam.619@gmail.com",
+        "gmail-pass":"enteryourpassword"
+    }
+}

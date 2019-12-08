@@ -1,24 +1,198 @@
-{% extends "layout.html" %}
-{% block body %}
+{% extends "layout.html" %} {% block body %}
 
-
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url('{{ url_for('static', filename ='img/boot1.jpg')}}')">
-  
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-              <div class="page-heading">
-                <h1>Our Services</h1>
-                <span class="subheading">Check out the services.</span>
-              </div>
-            </div>
-          </div>
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('{{ url_for('static', filename ='img/boot1.jpg')}}')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>Our Services</h1>
+          <span class="subheading">Check out the services.</span>
         </div>
-      </header>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Main Content -->
+<div class="container">
+  <div class="trainer">
+    <h4>1.Free Personal Training</h4>
+    <br />
+    <p>
+      <img class="img1" src="{{url_for('static', filename='img/trainer.jpg')}}" alt="training"
+        style="width:200px;height:200px;margin-left:15px;" />
+      Even if your goal is to create your own workouts and exercise by yourself.
+      hiring a trainer for a few sessions can be a great benefit for learning
+      the right way to exercise. A trainer can offer cues to help you get your
+      body into the right position so you're doing the moves correctly.
+      According to the Bureau of Labor Statistics, "employment of fitness
+      trainers and instructors is projected to grow 10 percent from 2016 to
+      2026, about as fast as the average for all occupations.
+    </p>
+  </div>
+  <div class="medical">
+    <h4>2.Free Medical Mointring</h4>
+    <p>
+      <img class="img2" src="{{url_for('static', filename='img/medical.jpg')}}" alt="medical"
+        style="width:200px;height:200px;margin-left:15px;" />
+      we provide you free medical monitoring.which helps you to grow and monitor
+      of regural health issues. You do all the hard work, you are feeling
+      fitter, stronger, but are you really? Has the program worked as expected,
+      or is there a better way? By monitoring your fitness you can determine
+      what sessions are best for you and see if all the hard work you have been
+      putting into training have been worthwhile. It is best to perform some
+      sort of fitness test when you start any new training phase, so you can get
+      an indication of your starting level. Subsequent test results can then be
+      compared to this and any changes can be noted. By repeating tests at
+      regular intervals.
+    </p>
+  </div>
+  <div class="cardio">
+    <h4>3.Cardio Area</h4>
+    <p> <img class="img1" src="{{url_for('static', filename='img/cardio.png')}}" alt="medical"
+        style="width:200px;height:200px;margin-left:15px;" />
+      we best cardio system and mechines to train you harder and loss your fats and carb.
+      Cardio exercise is any exercise that raises your heart rate.
+      Your heart is a muscle. Therefore working it makes it stronger.
+      A stronger cardio-vascular system means more capillaries
+      delivering more oxygen to cells in your muscles. This enables
+      your cells to burn more fat during both exercise and inactivity.
+      Cardio exercise uses large muscle movement over a sustained
+      period of time keeping your heart rate to at least 50% of its
+      maximum level.
+      <p>
+        Some of the Best Cardio Workouts Are:
+
+        <p> 1:-Walking – This is the easiest and safest way to start getting in your cardio.</p>
+
+        <p>2:- Elliptical – Minimal impact on the knees and hips but calorie burning is still high.
+          When you increase the incline you will activate more muscles.</p>
+
+        <p>3:- Running – This one is easy to understand. Just remember if you train like a
+          distance runner you will look like a distance runner. If you train like a sprinter you
+          will develop a sprinters body. Steading running burns calories but sprints take it to
+          the next level.</p>
+      </p>
+    </p>
+  </div>
+  <div class="sports">
+    <h4>4.Sports Facilites</h4>
+    <p>
+      <img class="img2" src="{{url_for('static', filename='img/sports.jpg')}}" alt="medical"
+        style="width:200px;height:200px;margin-left:15px;" />
+
+      we provide you sports facilites.which helps you to increase your stemina and strength to work fast and heavy.
+      <p>some of sports we gave you are.</p>
+      <p>
+        1.Jumping Rope–Cheap,easy and burns tons of calories.If you remember doing
+        this for hours as a kid you will be surprised at how exhausted you will get now.</p>
+
+      <p>2.Swimming – This is a total body workout as long as you are not just floating–even
+        treading water burns calories. Swimming laps would be best and change up the strokes
+        you use so that you work all different kinds of muscles and the continuous pace works
+        your heart and lungs.</p>
+
+      <p>3.Rowing – Works both the upper and lower body and is low stress on joints and ligaments.</p>
+    </p>
+
+  </div>
+  <div class="yoga">
+    <h4>5.Free Yoga Classes</h4>
+    <p> <img class="img1" src="{{url_for('static', filename='img/yoga.jpg')}}" alt="yoga"
+        style="width:200px;height:200px;margin-left:15px;" />
+
+      If your goal is weight loss, choosing one of the vigorous,
+      flowing styles of yoga, such as Ashtanga, Vinyasa or Power Yoga,
+      is the smart choice. ... You will burn calories, tone and stretch
+      your muscles, and provide weight bearing exercise for your bones
+      with these forms of yoga.
+      <p> 1.Ashtanga :- Ashtanga yoga literally means "eight-limbed yoga,"
+        The ultimate purpose of the Ashtanga practice is purification of
+        the body and mind. By moving so quickly and powerfully, you will
+        get a lot of tapas and everything extra, physical and mental, will
+        have to get out the way.</p>
+      <p>
+        2.Vinyasa:- Vinyasa is a style of yoga characterized by stringing postures
+        together so that you move from one to another, seamlessly, using breath. Commonly
+        referred to as “flow” yoga, it is sometimes confused with “power yoga“.
+        Vinyasa classes offer a variety of postures and no two classes are ever alike.</p>
+    </p>
+  </div>
+  <div class="steam_room">
+    <h4>6.Steam Room</h4>
+    <p>
+      <img class="img2" src="{{url_for('static', filename='img/steam.jpg')}}" alt="steam room"
+        style="width:200px;height:200px;margin-left:15px;" />
+      A steam room is a heated room that people use for relaxation
+      and to relieve some medical conditions. They are often found
+      in gyms or spas. A steam room is created when a water-filled
+      generator pumps steam into an enclosed space so there is moisture
+      in the air when people are sitting in it.
+      <p>Benefits of Yoga...</p>
+      <p>There are several health benefits associated with a steam room,
+        each of which is described here.
+        Improves circulation
+
+        Sitting in a steam room has been shown to have beneficial effects
+        on the cardiovascular system, particularly in older people.
+
+        Workout recovery
+
+        Often, after a workout, a person's muscles will feel sore. This pain
+        is known as delayed onset muscle soreness, and it is important to relax
+        the muscles to promote a quick and healthy recovery.</p>
+      <p>Burn calories:- When a person is inside a steam room their heart rate increases. If the
+        use a steam room after exercise, then their elevated heart rate can be
+        prolonged.
+
+        Experts have found that when used alongside a healthy exercise program,
+        the heat generated by the steam room and the sweating it causes can stimulate
+        the body and increase wellness.
+
+        It is worth noting that there is no scientific evidence to support the belief
+        that using a steam room aids weight loss.</p>
+    </p>
+  </div>
+  <div class="yoga">
+      <h4>7.group Classes</h4>
+      <p> <img class="img1" src="{{url_for('static', filename='img/group_class.jpg')}}" alt="group classes"
+          style="width:200px;height:200px;margin-left:15px;" />
+  
+          Group exercise classes are proving one of the most popular fitness trends of 2018. These classes go 
+          beyond losing weight and gaining muscle; by offering physical and mental benefits, group exercise classes 
+          gives members the potential to achieve great results and improve overall health, while having fun. New and 
+          innovative formats of 
+          group exercise including CrossFit, bootcamps and Insanity coming to light all the time, 
+          keeping participants engaged and interested. The possibilities are endless!
+          This doesn’t mean that solo exercise training is bad – individual training has its own 
+          benefits; but group exercise classes are more popular than ever before. According to Les Mills UK, 
+          group exercisers are 26% less likely to cancel on a class than a gym-only member. Moreover, 35% remain 
+          loyal compared to 29% of total gym attendees. 
+          <p>Here are some of the reasons why group exercise classes are
+          here to stay:</p>
+          <ul>
+            <li>MOTIVATION BOOST</li>
+            <li>STRUCTURED SETTING</li>
+            <li>SOCIAL BUTTERFLIES</li>
+            <li>ACCOUNTABILITY</li>
+           </ul>
+
+</div>
 
 
-<h1>cooming soon</h1>
+
+
+
+<!--CSS styling-->
+<style>
+  .img1 {
+    float: right;
+  }
+
+  .img2 {
+    float: left;
+  }
+</style>
 
 {% endblock %}

@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Page Header -->
+
+<header class="masthead" style="background-image: url('{{ url_for('static', filename ='img/card1.jpg')}}')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--Fitness Content -->
+<div class="container">
+  <div class="tips">
+    <div class="pro">
+      <h4 class="yo">Here we can have some tips from famous fitness celebrities</h4>
+      <p></p>
+
+    </div>
+
+
+
+
+
+    <h4 class="jhon"> 1.fitness tips by John Abraham</h4>
+    <div class="jhony">
+      <iframe width="400" height="275" src="https://www.youtube.com/embed/hmEXUGiG3oc" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <h4 class="jhon"> 2.fitness tips for cardio</h4>
+    <div class="jhony">
+      <iframe width="400" height="275" src="https://www.youtube.com/embed/4WPycjwmyXI" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+      </div>
+
+      <h4 class="shilpa"> 3.fitness tips for yoga by Shilpa Shetty</h4>
+    <div class="shilpy">
+        <iframe width="400" height="375" src="https://www.youtube.com/embed/cnKZit6VB44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+      </div>
+
+
+  </div>
+
+</div>
+
+<!--CSS Styling-->
+<style>
+
+</style>
+{% endblock %}

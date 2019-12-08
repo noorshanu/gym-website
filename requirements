@@ -1,5 +1,9 @@
 pip install flask
 pip install flask-mail
 pip install request
+pip install mysqlalchamy
+install xampp for database for connection
+need a browser to run website
+a good net connection for bootstrap4 for some minor program
 to run
 python main.py
